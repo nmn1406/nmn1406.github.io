@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<HEAD>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="images/logo.png">
+<title>Sign Up</title>
+</HEAD>
+<BODY>
+<div class="header">
+<center><font size="5" color="#ffffff"><b><br>New Customer<br><br></b></font>
+</div></center><br>
+<div class="container">
+  <div class="header"><center><h2>Sign Up</h2></div>
+  <div>
+<FORM name="register" Method="post" ACTION="signup.php"><br>
+<hr>
+	<label for="cname">Customer's Name</label>
+		<INPUT TYPE="Text" Name="cname" MINLENGTH="3"MAXLENGth="30"id="cname" required placeholder="Your Name.."><br><hr>
+	<label for="dob">Date of Birth</label>
+		<INPUT TYPE="date" Name="dob" id="dob" required><br><hr>
+	<label for="gender">Gender</label>
+		<INPUT TYPE="radio" Name="gender" id="gender"value="Male"required>&nbsp;Male&nbsp;&nbsp; 
+		<INPUT TYPE="radio" Name="gender" id="gender"value="Female">&nbsp;Female&nbsp;&nbsp; 
+		<INPUT TYPE="radio" Name="gender" id="gender"value="Transgender">&nbsp;Transgender&nbsp;&nbsp;<br><hr>
+	<label for="mobileno">Mobile No</label>
+		<INPUT TYPE="tel"MINLENGTH="10"maxlength="10" Name="mobileno"id="mobileno"required placeholder="Your Contact No.."><br><hr>
+	<label for="email">Email Id</label>
+		<INPUT TYPE="email" Name="email" MINLENGTH="10"MAXLENGth="40"id="email"required placeholder="Your Valid Email Id..(eg:-abc@xyz.com)"><br><hr>
+
+	<label for="pwd">Password</label>
+		<INPUT TYPE="password" Name="pwd" MINLENGTH="10" MAXLENGTh="15"id="pwd"required placeholder="Choose Your Password.."><br><hr>
+	<label for="confpwd">Confirm Password</label>
+		<INPUT TYPE="password" Name="confpwd" MINLENGTH="10" MAXLENGth="15"id="confpwd"required placeholder="Confirm Your Password.."><br><hr>
+		<INPUT TYPE="submit"name="submit" VALUE="Register" id="submit"><br>
+		<INPUT TYPE="reset" value="Clear"></b>
+</FORM>
+</div>
+<p align="right">
+<img src="images/arrow.gif"><a href="login.html"><u>Go Back To Sign-in</u></a><br></p>
+</div>
+<br><br>
+<center><a href="index.html">Home</a><br><br>
+
+</BODY>
+</HTML>
